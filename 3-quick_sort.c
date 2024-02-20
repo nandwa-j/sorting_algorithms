@@ -54,14 +54,14 @@ int partition(int *array, int low, int high, int size)
             if (i != j)
             {
                 swap(&array[i], &array[j]);
-                print_array(array, size);
+                print_list(array, size);
             }
         }
     }
     if (array[i + 1] != array[high])
     {
         swap(&array[i + 1], &array[high]);
-        print_array(array, size);
+        print_list(array, size);
     }
     return (i + 1);
 }

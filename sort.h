@@ -25,4 +25,7 @@ void insertion_sort_list(listint_t **list);
 int partition(int *array, int low, int high, size_t size);
 void quick_sort_helper(int *array, int low, int high, size_t size);
 void quick_sort(int *array, size_t size);
+void merge(int *array, int left, int middle, int right);
+void merge_sort(int *array, int left, int right);
+void radix_sort(int *array, size_t size);
 #endif
